@@ -1,0 +1,28 @@
+.tab {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.tab-btn {
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  border-bottom: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  position: relative;
+  top: 1px;
+  transition: background-color 0.3s ease;
+}
+
+.tab-btn-active {
+  background-color: #fff;
+  border-top: 2px solid blue; 
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  top: 0;
+}
+
+.tab-pane:not(.tab-pane-show) {
+  display: none;
+}
